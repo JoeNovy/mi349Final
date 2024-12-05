@@ -1,0 +1,40 @@
+body{
+    margin: 0 auto;
+    border-top: 15px solid #6301de;
+}
+
+.logo{
+    width: 20%;
+    padding-left: 40px;
+    padding-top:40px;
+}
+
+.Flex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.flexL{
+    background-color: lightgray;
+    flex:1;
+}
+.flexR{
+    flex:2;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    list-style-type: none;
+    font-size: 150%;
+    line-height: 200%;
+}
+
+.headshot{
+    width: 40%;
+    margin:auto;
+}
+
+.links{
+    width: 50px;
+}
