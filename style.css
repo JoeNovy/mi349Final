@@ -1,6 +1,7 @@
 body{
     margin: 0 auto;
     border-top: 5px solid #6301de;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .logo{
@@ -13,7 +14,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+
     
 }
 
@@ -24,21 +25,25 @@ body{
     align-self: stretch;
     position: sticky;
     height: 100vh;
-    border-top-right-radius: 10%;
+    border-top-right-radius: 3%;
     border-right: 5px solid #6301de;
 }
 .flexR{
+    background-image: url("Images/background\ for\ a\ design\ portfolio\ website\ with\ a\ lot\ of\ negative\ space\,\ modern\ and\ unusual\ style\,\ mi.jpeg");
     display:flex;
     flex-direction: column;
     flex:2;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;;
+    margin:0;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .nav{
     list-style-type: none;
     font-size: 150%;
-    line-height: 200%;
+    line-height: 280%;
+    color: black;
 }
 
 .headshot{
@@ -63,4 +68,12 @@ p{
 
 .resume{
     border: 5px solid darkgray;
+}
+
+:visited{
+    color: black;
+}
+
+:link{
+    color: black;
 }
