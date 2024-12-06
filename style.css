@@ -77,3 +77,29 @@ p{
 :link{
     color: black;
 }
+
+.flexRHome{
+    display:flex;
+    flex-direction: column;
+    flex:2;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+video{
+    border: 5px solid darkgray;
+}
+
+img{
+    width: 30%;
+}
+
+.homeflex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+}
