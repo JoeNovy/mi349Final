@@ -89,17 +89,44 @@ p{
     padding-bottom: 50px;
 }
 
-video{
-    border: 5px solid darkgray;
-}
 
-img{
-    width: 30%;
-}
 
-.homeflex{
+
+
+.flex1{
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 300%;
+    font-size: 450%;
+    gap: 50px;
 }
+
+.flex2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 450%;
+    padding-left: 50px;
+}
+
+.flex3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 450%;
+    gap: 50px;
+}
+
+.MSUPOSTER{
+    width: 30%;
+}
+
+.Dungeon{
+    width: 50%;
+}
+
+@media (any-hover: hover) {
+    a:hover {
+      font-size: larger;
+    }
+  }
