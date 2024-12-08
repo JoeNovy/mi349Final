@@ -25,7 +25,6 @@ body{
     align-self: stretch;
     position: sticky;
     height: 100vh;
-    border-top-right-radius: 3%;
     border-right: 5px solid #6301de;
 }
 .flexR{
@@ -41,7 +40,7 @@ body{
 }
 .nav{
     list-style-type: none;
-    font-size: 150%;
+    font-size: 135%;
     line-height: 280%;
     color: black;
 }
@@ -79,14 +78,14 @@ p{
 }
 
 .flexRHome{
+    background-color: black;
     display:flex;
     flex-direction: column;
     flex:2;
-    justify-content: center;
-    align-items: center;
     margin:0;
     padding-top: 50px;
     padding-bottom: 50px;
+    gap: 100px;
 }
 
 
@@ -97,15 +96,15 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 450%;
-    gap: 50px;
+    font-size: 350%;
+    gap: 100px;
 }
 
 .flex2{
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 450%;
+    font-size: 350%;
     padding-left: 50px;
 }
 
@@ -113,8 +112,8 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 450%;
-    gap: 50px;
+    font-size: 350%;
+    gap: 100px;
 }
 
 .MSUPOSTER{
@@ -122,7 +121,7 @@ p{
 }
 
 .Dungeon{
-    width: 50%;
+    width: 40%;
 }
 
 @media (any-hover: hover) {
@@ -130,3 +129,136 @@ p{
       font-size: larger;
     }
   }
+
+  .flexgame{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .DungeonGenerator{
+    width: 40%;
+    border: 5px solid darkgray;
+  }
+
+  .GeneratorPics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .GeneratorPics2{
+    width: 100%;
+    border: 5px solid darkgray;
+  }
+
+  figcaption{
+    text-align: center;
+  }
+
+  .flexdesign{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+  }
+
+  .MSUPOSTER2{
+    width:30%;
+    border: 5px solid darkgray;
+  }
+
+  .headflex{
+    padding-left: 20px;
+  }
+
+  .tank{
+    border: 5px solid darkgray;
+  }
+
+  .homepage{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .homepage1{
+    color: white;
+    font-size: 500%;
+  }
+  
+  .center{
+    text-align: center;
+  }
+
+
+
+
+
+  /*Found Online at: https://codepen.io/wifi/pen/DGYLPw, but still added some things to make it fit*/
+
+.pacman{
+    padding-left: 30px;
+}
+.pacman-top{
+  background-color:yellow;
+  height:100px;
+  width:200px;
+  border-radius:100px 100px 0 0;
+  animation: spin1 0.5s infinite linear;
+}
+
+.pacman-bottom{
+background-color:yellow;
+  height:100px;
+  width:200px;
+  border-radius:0 0 100px 100px;
+  animation: spin2 0.5s infinite linear;
+}
+
+.feed {
+margin-top: -185px;
+margin-left:15px;
+width: 45px;
+height: 45px;
+border-radius: 30%;
+animation: eat 1s linear 0s infinite;
+}   
+
+/* Animation*/
+
+@keyframes spin1 {
+	0%  {transform: rotate(0deg);}
+	50%{transform: rotate(-35deg);}
+  
+}
+@keyframes spin2 {
+	0%  {transform: rotate(0deg);}
+  50%{transform: rotate(35deg);}	
+}
+
+@keyframes eat {
+	0% { box-shadow: 
+      100px 65px 0 0 white, 
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white,
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white, 
+      1300px 65px 0 0 white;}
+  
+100% { box-shadow: 
+      0px 65px 0 0 white, 
+      100px 65px 0 0 white,
+      300px 65px 0 0 white, 
+      500px 65px 0 0 white, 
+      700px 65px 0 0 white, 
+      900px 65px 0 0 white, 
+      1100px 65px 0 0 white;}
+}
+
